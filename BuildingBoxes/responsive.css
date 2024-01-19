@@ -1,0 +1,153 @@
+/* reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo{
+    min-height: 130px;
+    width: 25%;
+    background-color: #B97A57;
+    display: inline-block;
+}
+#wrapper{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #FFD9B7;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+#navigation{
+    min-height: 130px;
+    width: 71%;
+    background-color: #FF7F27;
+    display: inline-block;
+    margin-left: 2%;
+}
+#main_content{
+    min-height: 250px;
+    width: 98%;
+    background-color: #880015;
+    margin-top: 2%;;
+    padding: 2%;
+}
+#about {
+    min-height: 250px;
+    width: 70%;
+    background-color: #FFAEC9;
+    display: inline-block;
+}
+#advertisement {
+    min-height: 200px;
+    width: 23%;
+    background-color: #C8BFE7;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.sponsors{
+    min-height: 65px;
+    width: 32.6%;
+    background-color: #FFFF88;
+    display: inline-block;
+    margin: 2% 0;
+}
+
+/* Smartphones */
+@media only screen and (max-width: 480px) {
+    #logo {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+    }
+    #navigation {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        vertical-align: top;
+    }
+    #wrapper{
+        padding: 0;
+    }
+    #main_content {
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+    }
+    #about {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #advertisement {
+        display: none;
+    }
+    .sponsors {
+        width: 100%;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 481px) {
+    #wrapper{
+        padding: 0;
+    }
+    #logo {
+        width: 29%;
+    }
+    #navigation {
+        width: 69%;
+        margin-left: 2%;
+    }
+    #main_content {
+        margin-top: 2%;
+        width: 100%;
+    }
+    #about {
+        width: 100%;
+    }
+    #advertisement {
+        display: none;
+    }
+    .sponsors {
+        width: 49%;
+    }
+    .m-1 {
+        margin-left: 1%;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    #wrapper{
+        padding-left: 2%;
+        padding-top: 2%;
+    }
+    #logo{
+        width: 25%;
+    }
+    #navigation{
+        width: 71%;
+        margin-left: 2%;
+    }
+    #main_content{
+        width: 98%;
+        margin-top: 2%;
+        padding: 3%;
+    }
+    #about {
+        width: 70%;
+    }
+    #advertisement {
+        width: 23%;
+        margin-left: 5%;
+        display: inline-block;
+    }
+    .sponsors{
+        width: 32.5%;
+        margin: 2% 0;
+    }
+}
