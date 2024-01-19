@@ -1,0 +1,374 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Dongle;
+}
+
+html {
+    font-size: 16px;
+  }
+
+h1 {
+    // display: inline-block ;
+    font-size: 99px;
+    color: #224768;
+    // margin-bottom: -50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+    /* margin-top: 20px ; */
+}
+
+h4 {
+    font-size: 33px;
+    font-weight: 400;
+    /* margin-top: 30px; */
+}
+
+h5 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    border-top: 3px solid #224768;
+    margin: 25px 0px;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul li {
+    margin-left: 23px;
+    font-size: 30px;
+}
+
+footer {
+    margin-left: 18%;
+    margin-top: 20px;
+}
+
+    footer img{
+        width: 35px;
+        display: inline-block;
+        padding: 0px 5px;
+    }
+
+    footer a {
+        font-size: 35px;
+        font-weight: 300;
+        color: black;
+    }
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    background: rgb(255,255,240);
+    background: radial-gradient(circle, rgba(255,255,240,1) 0%, rgba(198,213,227,1) 100%);
+}
+
+.profilePicture {
+    width: 300px;
+    height: 250px;
+    margin: 28px 10px 10px 10px;
+    // padding-left: 50px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.headerInformation {
+    display: inline-block;
+    vertical-align: top;
+    // margin:  20px;
+}
+.main {
+    width: 944px;  
+    background: rgb(241,241,241);
+    background: linear-gradient(353deg, rgba(241,241,241,1) 0%, rgba(202,208,212,1) 100%);
+    padding: 20px 20px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.content {
+    margin-bottom: 15px;
+}
+
+.showCase {
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+}
+
+.skills {
+    display: inline-block;
+    width: 49%;
+    padding: 20px;
+}
+
+    .skills img {
+        width: 75px;
+        padding: 5px
+    }
+
+.projects {
+    width: 50%;
+    vertical-align: top;
+    padding: 15px;
+    background: rgb(241,241,241);
+    background: radial-gradient(circle, rgba(241,241,241,1) 69%, rgba(202,208,212,1) 100%);
+    display: inline-block;
+}
+
+// Mobile
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    h4 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    h5 {
+        width: 100%;
+        font-size: 1.5rem;
+        // padding: 0 3px;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    ul li {
+        font-size: 1.3rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .profilePicture {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        // padding-top: 20px;
+    }
+    .headerInformation {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: normal;
+    }
+    .main {
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+    }
+    .skills {
+        width: 100%;
+        padding: 0;
+    }
+        .skills img {
+            margin: 0 auto;
+            width: 40px;
+        }
+    .projects {
+        width: 100%;
+        padding: 0;
+    }
+    footer {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    footer a{
+        font-size: 1rem;
+        margin: 0;
+    }
+    footer img {
+        width: 1.5rem;
+    }
+}
+
+// Tablet
+@media only screen and (min-width: 481px) {
+    h1 {
+        font-size: 4rem;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    h5 {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.7rem;
+    }
+    ul li {
+        font-size: 1.9rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .profilePicture {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .headerInformation {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        line-height: normal;
+    }
+    .main {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .skills {
+        width: 49%;
+    }
+        .skills img {
+            margin: 0 auto;
+            width: 65px;
+        }
+    .projects {
+        width: 49%;
+    }
+    footer {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    footer a{
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    footer img {
+        width: 2rem;
+    }
+}
+
+// Desktop
+@media only screen and (min-width: 1024px) {
+
+h1 {
+    // display: inline-block ;
+    font-size: 99px;
+    color: #224768;
+    // margin-bottom: -50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 400;
+    /* margin-top: 20px ; */
+}
+
+h4 {
+    font-size: 33px;
+    font-weight: 400;
+    /* margin-top: 30px; */
+}
+
+h5 {
+    font-size: 33px;
+    font-weight: 300;
+}
+
+span {
+    display: inline-block;
+    width: 100%;
+    margin: 25px 0px;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul li {
+    margin-left: 23px;
+    font-size: 30px;
+}
+    footer img{
+        width: 35px;
+        // padding: 0px 5px;
+    }
+
+    footer a {
+        font-size: 35px;
+        font-weight: 300;
+    }
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.profilePicture {
+    width: 310px;
+    height: 300px;
+    display: inline-block;
+    margin: 28px 10px 10px 10px;
+}
+
+.headerInformation {
+    width: 65%;
+    margin-top: 25px;
+}
+.main {
+    width: 944px;  
+    padding: 20px 20px;
+    margin: 10px;
+}
+.showCase {
+    padding: 10px;
+}
+.skills {
+    width: 49%;
+    padding: 20px;
+}
+    .skills img {
+        width: 80px;
+        padding: 5px
+    }
+
+.projects {
+    width: 50%;
+}
+}

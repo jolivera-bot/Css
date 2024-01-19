@@ -1,0 +1,109 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Dongle;
+}
+h1 {
+  display: inline-block;
+  font-size: 99px;
+  color: #224768;
+  margin-bottom: -50px;
+}
+h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 400;
+  /* margin-top: 20px ; */
+}
+h4 {
+  font-size: 33px;
+  font-weight: 400;
+  /* margin-top: 30px; */
+}
+h5 {
+  font-size: 33px;
+  font-weight: 300;
+}
+span {
+  display: inline-block;
+  width: 100%;
+  border-top: 3px solid #224768;
+  margin: 25px 0px;
+}
+p {
+  font-size: 30px;
+}
+ul li {
+  margin-left: 23px;
+  font-size: 30px;
+}
+footer {
+  margin-left: 18%;
+  margin-top: 20px;
+}
+footer img {
+  width: 35px;
+  display: inline-block;
+  padding: 0px 5px;
+}
+footer a {
+  font-size: 35px;
+  font-weight: 300;
+  color: black;
+}
+.container {
+  width: 970px;
+  display: inline-block;
+  background: #fffff0;
+  background: radial-gradient(circle, #fffff0 0%, #c6d5e3 100%);
+}
+.profilePicture {
+  width: 310px;
+  height: 265px;
+  margin: 28px 10px 10px 10px;
+  display: inline-block;
+}
+.headerInformation {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+}
+.main {
+  width: 944px;
+  background: #f1f1f1;
+  background: linear-gradient(353deg, #f1f1f1 0%, #cad0d4 100%);
+  padding: 20px 20px;
+  margin: 10px;
+  display: inline-block;
+}
+.content {
+  margin-bottom: 15px;
+}
+.showCase {
+  width: auto;
+  display: inline-block;
+  padding: 10px;
+}
+.skills {
+  display: inline-block;
+  width: 49%;
+  padding: 20px;
+}
+.skills img {
+  width: 75px;
+  padding: 5px;
+}
+.projects {
+  width: 50%;
+  vertical-align: top;
+  padding: 15px;
+  background: #f1f1f1;
+  background: radial-gradient(circle, #f1f1f1 69%, #cad0d4 100%);
+  display: inline-block;
+}
